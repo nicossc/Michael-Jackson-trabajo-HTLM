@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+figcaption,h1{
+	color: #f8f3f7;
+	text-align: center;
+}
+
+body {
+
+    background: linear-gradient(to bottom, black, #BDB6B6); 
+    
+}
+
+#cabecera {
+	background: linear-gradient(to bottom, black, #000000);
+	padding: 20px;
+	border-radius: 10px;
+}
+h1,font: bold 20px verdana, sans-serif;
+	color: white;h2,figcaption {
+	font: bold 20px verdana, sans-serif;
+	color: white;
+} 
+
+#menu {
+	padding: 5px 15px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+#menu li {
+   display: inline-block;
+   list-style: none;
+   padding: 5px;
+   font-family: bold 14px, 'Open Sans'
+   transition: background-color 0.3s, transform 0.3s;
+}
+
+#menu li:hover {
+  background-color: gray;
+  transform: scale(1.3); /* Ajusta la escala según tu preferencia */
+}
+
+a {
+  text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+  color: white; /* Establece el color del texto */
+  padding: 5px 10px; /* Añade relleno alrededor del texto */
+  transition: background-color 0.2s; /* Agrega una transición de color de fondo */
+}
+
+a:hover {
+  background-color: gray; /* Cambia el color de fondo al hacer hover */
+}
+
+#pie {
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+
+figcaption {
+	padding: 10px;
+	width: 200px;
+	font: italic 14px verdana, sans-serif;
+}
+

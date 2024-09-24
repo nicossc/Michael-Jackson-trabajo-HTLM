@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sobre nosotros</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="icon" href="../imagenes_video/michael-jackson.png" type="image/x-icon">
+	<style>
+	body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+
+		section {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 70vh; /* Ajustar la altura según sea necesario */
+		}
+
+		form {
+			width: 400px;
+			padding: 1em;
+			border: 1px solid #ccc;
+			border-radius: 1em;
+			margin-bottom: 20px; /* Ajustar el margen inferior según sea necesario */
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		form li {
+			margin-top: 1em;
+		}
+
+		label {
+			display: inline-block;
+			width: 90px;
+			text-align: right;
+		}
+
+		input,
+		textarea {
+			font: 1em sans-serif;
+			width: 300px;
+			box-sizing: border-box;
+			border: 1px solid #999;
+		}
+
+		input:focus,
+		textarea:focus {
+			border-color: #000;
+		}
+
+		textarea {
+			vertical-align: top;
+			height: 5em;
+		}
+
+		.button {
+			padding-left: 90px;
+		}
+
+		button {
+			margin-left: 0.5em;
+			background-color: #4caf50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+	
+	</style>
+</head>
+<body>
+	<header id="cabecera">
+		<h1>Contáctenos</h1>
+	</header>
+	<nav id="menu">
+		<ul>
+			<li><a href="../inedx.html">Página principal</a></li>
+			<li><a href="nacimiento.html">Niñez</a></li>
+			<li><a href="incios.html">Inicios</a></li>
+			<li><a href="Éxitos.html">Éxitos</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label for="name">Nombre:</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+				<li>
+					<label for="mail">Correo electrónico:</label>
+					<input type="email" id="mail" name="user_mail" />
+				</li>
+				<li>
+					<label for="msg">Mensaje:</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+			</ul>
+			<li class="button">
+				<button type="submit">Enviar</button>
+			</li>
+		</form>
+	</section>
+
+	<footer id="pie">
+		Derechos Reservados &copy; 2024-2025 
+	</footer>
+</body>
+</html>
