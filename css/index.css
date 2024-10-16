@@ -20,8 +20,8 @@ body {
 	padding: 20px;
 	border-radius: 10px;
 }
-h1,font: bold 20px verdana, sans-serif;
-	color: white;h2,figcaption {
+h1,font { 
+	color: white; 
 	font: bold 20px verdana, sans-serif;
 	color: white;
 } 
@@ -37,8 +37,8 @@ h1,font: bold 20px verdana, sans-serif;
    display: inline-block;
    list-style: none;
    padding: 5px;
-   font-family: bold 14px, 'Open Sans'
-   transition: background-color 0.3s, transform 0.3s;
+   font-family: bold 14px, 'Open Sans';
+   transition: background-color 0.3s transform 0.3s;
 }
 
 #menu li:hover {
@@ -67,7 +67,8 @@ a:hover {
 
 figcaption {
 	padding: 10px;
-	width: 200px;
+	width: 480px;
 	font: italic 14px verdana, sans-serif;
+	
 }
 
